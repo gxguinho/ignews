@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 import styles from './styles.module.scss';
 
-type Post = {
+export type Post = {
   slug: string;
   title: string;
   excerpt: string;
