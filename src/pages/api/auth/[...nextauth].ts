@@ -94,5 +94,8 @@ export default NextAuth({
         return false
       }
     },
+  },
+  pages: {
+    signIn: "/api/auth/sigin",
   }
 })
