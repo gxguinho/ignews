@@ -27,3 +27,4 @@
 import "@testing-library/cypress/add-commands";
 
 Cypress.Commands.add("google", () => cy.visit("http://google.com"));
+Cypress.Commands.add("ignews", () => cy.visit("http://localhost:3000"));

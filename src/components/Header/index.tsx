@@ -10,11 +10,11 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src="/images/logo.svg" alt="logo" />
         <nav>
-          <ActiveLink href="/" activeClassName={styles.active}>
-            <a>Home</a>
+          <ActiveLink id="homeLink" href="/" activeClassName={styles.active}>
+            <a id="homeLink" >Home</a>
           </ActiveLink>
-          <ActiveLink href="/posts" activeClassName={styles.active}>
-            <a>Posts</a>
+          <ActiveLink id="postsLink" href="/posts" activeClassName={styles.active}>
+            <a id="postsLink" >Posts</a>
           </ActiveLink>
         </nav>
         <SignInButton />

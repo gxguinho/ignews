@@ -9,5 +9,6 @@ export default defineConfig({
       return require("./cypress/plugins/index.ts")(on, config);
     },
     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}"
-  }
+  },
+  chromeWebSecurity: false,
 });

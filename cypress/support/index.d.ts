@@ -8,5 +8,6 @@ declare namespace Cypress {
      * @example cy.google()
      */
     google(): Chainable<Window>;
+    ignews(): Chainable<Window>;
   }
 }
